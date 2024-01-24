@@ -102,6 +102,6 @@ welcome_message db '    ___    ____  _________    ____  ______   ____  _____', 1
 press_any_key_message db 10,13,'Press any key for menu...', 10, 13, 0
 error_message db 'Failed to read sector from USB!', 10, 13, 0
 
-times 512 - ($ - $$) db 0           ; fill trailing zeros to get exactly 512 bytes long binary file
+times 510 - ($ - $$) db 0           ; fill trailing zeros to get exactly 512 bytes long binary file
 dw 0xaa55                           ; set boot signature
 
