@@ -21,7 +21,7 @@ mov ah, 0x00                        ; BIOS code to set video mode
 mov al, 0x03                        ; 80 x 25 text mode
 int 0x10                            ; set video mode
 
-; Set background color to white and change text color to blue
+; Set background color to red and change text color to default
 mov ah, 0x0b
 mov bh, 0      ; Page number
 mov bl, 0x04   ; Text color: blue (lower 4 bits), Background color: white (higher 4 bits)
