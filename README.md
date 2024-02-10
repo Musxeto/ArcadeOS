@@ -102,4 +102,4 @@ Feel free to explore, modify, and share this project with the world.
 
 ---
 
-**Note:** This project was developed as part of the 3rd Semester Computer Organization and Assembly Language course at Lahore Garrison University. It reflects the efforts and passion for exploration of us student developers.
+**Note:** This project was developed for the final project of 3rd Semester Computer Organization and Assembly Language course at Lahore Garrison University. It reflects the efforts and passion for exploration of us student developers.
