@@ -5,6 +5,8 @@ A Bootable OS in Assembly Language
 
 Arcade OS is a comprehensive operating system developed for the sole purpose of delivering an authentic retro gaming experience. This project, born out of the 3rd Semester Computer Organization and Assembly Language course at Lahore Garrison University, is a collaborative effort by a group of dedicated students including me, Ghulam Mustafa, the group leader and my friends/Groupmates. With a focus on assembly language programming, Arcade OS takes users on a nostalgic journey back to the MS-DOS era, providing a minimalist Command Line Interface (CLI) and an array of text-based retro games.
 
+## Documentation: [ARCADE OS DOC.pdf](https://github.com/Musxeto/ArcadeOS/files/14602132/ARCADE.OS.DOC.pdf)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -17,6 +19,7 @@ Arcade OS is a comprehensive operating system developed for the sole purpose of 
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
+  
 
 ## Introduction
 
