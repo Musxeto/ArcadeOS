@@ -23,10 +23,10 @@ cat boot.bin files.bin shell.bin \
     ./games/tetros.bin           \
     ./games/bricks.bin           \
     time.bin                     \
-    floppy.bin > GameOS.img
+    floppy.bin > ArcadeOS.img
 
 # clean up files
 rm -f boot.bin floppy.bin files.bin shell.bin list.bin time.bin
 
 # run OS image in the QEMU emulator (NOTE we load image from HDD not from FLOPPY!)
-qemu-system-i386 -hda GameOS.img
+qemu-system-i386 -hda ArcadeOS.img
